@@ -1,0 +1,631 @@
+{
+  "name": "lens-mrt",
+  "version": "0.0.1",
+  "dependencies": {
+    "substance-util": {
+      "version": "0.2.0",
+      "from": "substance-util@git://github.com/substance/util.git#ed82cb76170923056ff6c480e0635f002b78e88f",
+      "resolved": "git://github.com/substance/util.git#ed82cb76170923056ff6c480e0635f002b78e88f",
+      "dependencies": {
+        "underscore": {
+          "version": "1.5.2",
+          "from": "underscore@1.5.x"
+        }
+      }
+    },
+    "substance-surface": {
+      "version": "0.4.0-1",
+      "from": "substance-surface@",
+      "dependencies": {
+        "underscore": {
+          "version": "1.5.2",
+          "from": "underscore@1.5.x"
+        },
+        "substance-util": {
+          "version": "0.3.0-1",
+          "from": "substance-util@0.3.0-1"
+        }
+      }
+    },
+    "substance-operator": {
+      "version": "0.3.0-1",
+      "from": "substance-operator@",
+      "dependencies": {
+        "underscore": {
+          "version": "1.5.2",
+          "from": "underscore@1.5.x"
+        },
+        "substance-util": {
+          "version": "0.3.0-1",
+          "from": "substance-util@0.3.0-1"
+        }
+      }
+    },
+    "substance-document": {
+      "version": "0.6.0-1",
+      "from": "substance-document@",
+      "dependencies": {
+        "underscore": {
+          "version": "1.5.2",
+          "from": "underscore@1.5.x"
+        },
+        "substance-util": {
+          "version": "0.3.0-1",
+          "from": "substance-util@0.3.0-1"
+        },
+        "substance-regexp": {
+          "version": "0.2.0-1",
+          "from": "substance-regexp@0.2.0-1"
+        }
+      }
+    },
+    "substance-data": {
+      "version": "0.9.0-1",
+      "from": "substance-data@",
+      "dependencies": {
+        "underscore": {
+          "version": "1.5.2",
+          "from": "underscore@1.5.x"
+        },
+        "substance-util": {
+          "version": "0.3.0-1",
+          "from": "substance-util@0.3.0-1"
+        }
+      }
+    },
+    "substance-chronicle": {
+      "version": "0.3.0-1",
+      "from": "substance-chronicle@",
+      "dependencies": {
+        "underscore": {
+          "version": "1.5.2",
+          "from": "underscore@1.5.x"
+        },
+        "substance-util": {
+          "version": "0.3.0-1",
+          "from": "substance-util@0.3.0-1"
+        }
+      }
+    },
+    "substance-application": {
+      "version": "0.2.0-1",
+      "from": "substance-application@",
+      "dependencies": {
+        "underscore": {
+          "version": "1.5.2",
+          "from": "underscore@1.5.x"
+        },
+        "esprima": {
+          "version": "1.0.4",
+          "from": "esprima@1.0.x"
+        },
+        "escodegen": {
+          "version": "0.0.28",
+          "from": "escodegen@0.0.x",
+          "dependencies": {
+            "estraverse": {
+              "version": "1.3.2",
+              "from": "estraverse@~1.3.0"
+            },
+            "source-map": {
+              "version": "0.1.34",
+              "from": "source-map@>= 0.1.2",
+              "dependencies": {
+                "amdefine": {
+                  "version": "0.1.0",
+                  "from": "amdefine@>=0.0.4"
+                }
+              }
+            }
+          }
+        },
+        "estraverse": {
+          "version": "0.0.4",
+          "from": "estraverse@0.0.x"
+        },
+        "MD5": {
+          "version": "1.0.3",
+          "from": "MD5@1.0.x",
+          "dependencies": {
+            "charenc": {
+              "version": "0.0.1",
+              "from": "charenc@>= 0.0.1"
+            },
+            "crypt": {
+              "version": "0.0.1",
+              "from": "crypt@>= 0.0.1"
+            }
+          }
+        },
+        "resolve": {
+          "version": "0.3.1",
+          "from": "resolve@0.3.x"
+        },
+        "substance-regexp": {
+          "version": "0.2.0-1",
+          "from": "substance-regexp@0.2.0-1"
+        }
+      }
+    },
+    "lens-article": {
+      "version": "0.1.0",
+      "from": "lens-article@",
+      "dependencies": {
+        "underscore": {
+          "version": "1.5.2",
+          "from": "underscore@1.5.x"
+        },
+        "substance-document": {
+          "version": "0.5.0",
+          "from": "substance-document@0.5.0",
+          "dependencies": {
+            "substance-chronicle": {
+              "version": "0.2.0",
+              "from": "substance-chronicle@0.2.0"
+            },
+            "substance-data": {
+              "version": "0.8.0",
+              "from": "substance-data@0.8.0"
+            },
+            "substance-regexp": {
+              "version": "0.1.0",
+              "from": "substance-regexp@0.1.0"
+            }
+          }
+        },
+        "substance-application": {
+          "version": "0.1.0",
+          "from": "substance-application@0.1.0",
+          "dependencies": {
+            "esprima": {
+              "version": "1.0.4",
+              "from": "esprima@1.0.x"
+            },
+            "escodegen": {
+              "version": "0.0.28",
+              "from": "escodegen@0.0.x",
+              "dependencies": {
+                "estraverse": {
+                  "version": "1.3.2",
+                  "from": "estraverse@~1.3.0"
+                },
+                "source-map": {
+                  "version": "0.1.34",
+                  "from": "source-map@>= 0.1.2",
+                  "dependencies": {
+                    "amdefine": {
+                      "version": "0.1.0",
+                      "from": "amdefine@>=0.0.4"
+                    }
+                  }
+                }
+              }
+            },
+            "estraverse": {
+              "version": "0.0.4",
+              "from": "estraverse@0.0.x"
+            },
+            "MD5": {
+              "version": "1.0.3",
+              "from": "MD5@1.0.x",
+              "dependencies": {
+                "charenc": {
+                  "version": "0.0.1",
+                  "from": "charenc@>= 0.0.1"
+                },
+                "crypt": {
+                  "version": "0.0.1",
+                  "from": "crypt@>= 0.0.1"
+                }
+              }
+            },
+            "resolve": {
+              "version": "0.3.1",
+              "from": "resolve@0.3.x"
+            },
+            "substance-regexp": {
+              "version": "0.1.0",
+              "from": "substance-regexp@0.1.0"
+            }
+          }
+        },
+        "substance-operator": {
+          "version": "0.2.0",
+          "from": "substance-operator@0.2.0"
+        }
+      }
+    },
+    "lens-reader": {
+      "version": "0.1.0",
+      "from": "lens-reader@",
+      "dependencies": {
+        "underscore": {
+          "version": "1.5.2",
+          "from": "underscore@1.5.x"
+        },
+        "substance-data": {
+          "version": "0.8.0",
+          "from": "substance-data@0.8.0",
+          "dependencies": {
+            "substance-chronicle": {
+              "version": "0.2.0",
+              "from": "substance-chronicle@0.2.0"
+            }
+          }
+        },
+        "substance-document": {
+          "version": "0.5.0",
+          "from": "substance-document@0.5.0",
+          "dependencies": {
+            "substance-chronicle": {
+              "version": "0.2.0",
+              "from": "substance-chronicle@0.2.0"
+            },
+            "substance-regexp": {
+              "version": "0.1.0",
+              "from": "substance-regexp@0.1.0"
+            }
+          }
+        },
+        "substance-application": {
+          "version": "0.1.0",
+          "from": "substance-application@0.1.0",
+          "dependencies": {
+            "esprima": {
+              "version": "1.0.4",
+              "from": "esprima@1.0.x"
+            },
+            "escodegen": {
+              "version": "0.0.28",
+              "from": "escodegen@0.0.x",
+              "dependencies": {
+                "estraverse": {
+                  "version": "1.3.2",
+                  "from": "estraverse@~1.3.0"
+                },
+                "source-map": {
+                  "version": "0.1.34",
+                  "from": "source-map@>= 0.1.2",
+                  "dependencies": {
+                    "amdefine": {
+                      "version": "0.1.0",
+                      "from": "amdefine@>=0.0.4"
+                    }
+                  }
+                }
+              }
+            },
+            "estraverse": {
+              "version": "0.0.4",
+              "from": "estraverse@0.0.x"
+            },
+            "MD5": {
+              "version": "1.0.3",
+              "from": "MD5@1.0.x",
+              "dependencies": {
+                "charenc": {
+                  "version": "0.0.1",
+                  "from": "charenc@>= 0.0.1"
+                },
+                "crypt": {
+                  "version": "0.0.1",
+                  "from": "crypt@>= 0.0.1"
+                }
+              }
+            },
+            "resolve": {
+              "version": "0.3.1",
+              "from": "resolve@0.3.x"
+            },
+            "substance-regexp": {
+              "version": "0.1.0",
+              "from": "substance-regexp@0.1.0"
+            }
+          }
+        },
+        "substance-operator": {
+          "version": "0.2.0",
+          "from": "substance-operator@0.2.0"
+        },
+        "substance-toc": {
+          "version": "0.1.0",
+          "from": "substance-toc@0.1.0"
+        },
+        "substance-surface": {
+          "version": "0.3.0",
+          "from": "substance-surface@0.3.0",
+          "dependencies": {
+            "substance-commander": {
+              "version": "0.1.0",
+              "from": "substance-commander@0.1.0"
+            }
+          }
+        },
+        "lens-outline": {
+          "version": "0.1.0",
+          "from": "lens-outline@0.1.0"
+        }
+      }
+    },
+    "lens-outline": {
+      "version": "0.2.0",
+      "from": "lens-outline@",
+      "dependencies": {
+        "underscore": {
+          "version": "1.5.2",
+          "from": "underscore@1.5.x"
+        },
+        "substance-application": {
+          "version": "0.1.0",
+          "from": "substance-application@0.1.0",
+          "dependencies": {
+            "esprima": {
+              "version": "1.0.4",
+              "from": "esprima@1.0.x"
+            },
+            "escodegen": {
+              "version": "0.0.28",
+              "from": "escodegen@0.0.x",
+              "dependencies": {
+                "estraverse": {
+                  "version": "1.3.2",
+                  "from": "estraverse@~1.3.0"
+                },
+                "source-map": {
+                  "version": "0.1.34",
+                  "from": "source-map@>= 0.1.2",
+                  "dependencies": {
+                    "amdefine": {
+                      "version": "0.1.0",
+                      "from": "amdefine@>=0.0.4"
+                    }
+                  }
+                }
+              }
+            },
+            "estraverse": {
+              "version": "0.0.4",
+              "from": "estraverse@0.0.x"
+            },
+            "MD5": {
+              "version": "1.0.3",
+              "from": "MD5@1.0.x",
+              "dependencies": {
+                "charenc": {
+                  "version": "0.0.1",
+                  "from": "charenc@>= 0.0.1"
+                },
+                "crypt": {
+                  "version": "0.0.1",
+                  "from": "crypt@>= 0.0.1"
+                }
+              }
+            },
+            "resolve": {
+              "version": "0.3.1",
+              "from": "resolve@0.3.x"
+            },
+            "substance-regexp": {
+              "version": "0.1.0",
+              "from": "substance-regexp@0.1.0"
+            }
+          }
+        }
+      }
+    },
+    "lens-converter": {
+      "version": "0.1.0",
+      "from": "lens-converter@",
+      "dependencies": {
+        "underscore": {
+          "version": "1.5.2",
+          "from": "underscore@1.5.x"
+        },
+        "substance-converter": {
+          "version": "0.2.0",
+          "from": "substance-converter@0.2.0",
+          "dependencies": {
+            "substance-article": {
+              "version": "0.2.0",
+              "from": "substance-article@0.2.0",
+              "dependencies": {
+                "substance-application": {
+                  "version": "0.1.0",
+                  "from": "substance-application@0.1.0",
+                  "dependencies": {
+                    "esprima": {
+                      "version": "1.0.4",
+                      "from": "esprima@1.0.x"
+                    },
+                    "escodegen": {
+                      "version": "0.0.28",
+                      "from": "escodegen@0.0.x",
+                      "dependencies": {
+                        "estraverse": {
+                          "version": "1.3.2",
+                          "from": "estraverse@~1.3.0"
+                        },
+                        "source-map": {
+                          "version": "0.1.34",
+                          "from": "source-map@>= 0.1.2",
+                          "dependencies": {
+                            "amdefine": {
+                              "version": "0.1.0",
+                              "from": "amdefine@>=0.0.4"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "estraverse": {
+                      "version": "0.0.4",
+                      "from": "estraverse@0.0.x"
+                    },
+                    "MD5": {
+                      "version": "1.0.3",
+                      "from": "MD5@1.0.x",
+                      "dependencies": {
+                        "charenc": {
+                          "version": "0.0.1",
+                          "from": "charenc@>= 0.0.1"
+                        },
+                        "crypt": {
+                          "version": "0.0.1",
+                          "from": "crypt@>= 0.0.1"
+                        }
+                      }
+                    },
+                    "resolve": {
+                      "version": "0.3.1",
+                      "from": "resolve@0.3.x"
+                    },
+                    "substance-regexp": {
+                      "version": "0.1.0",
+                      "from": "substance-regexp@0.1.0"
+                    }
+                  }
+                },
+                "substance-operator": {
+                  "version": "0.2.0",
+                  "from": "substance-operator@0.2.0"
+                },
+                "substance-nodes": {
+                  "version": "0.2.0",
+                  "from": "substance-nodes@0.2.0"
+                }
+              }
+            },
+            "substance-document": {
+              "version": "0.5.0",
+              "from": "substance-document@0.5.0",
+              "dependencies": {
+                "substance-operator": {
+                  "version": "0.2.0",
+                  "from": "substance-operator@0.2.0"
+                },
+                "substance-chronicle": {
+                  "version": "0.2.0",
+                  "from": "substance-chronicle@0.2.0"
+                },
+                "substance-data": {
+                  "version": "0.8.0",
+                  "from": "substance-data@0.8.0"
+                },
+                "substance-regexp": {
+                  "version": "0.1.0",
+                  "from": "substance-regexp@0.1.0"
+                }
+              }
+            },
+            "request": {
+              "version": "2.24.0",
+              "from": "request@2.24.x",
+              "dependencies": {
+                "qs": {
+                  "version": "0.6.6",
+                  "from": "qs@~0.6.0"
+                },
+                "json-stringify-safe": {
+                  "version": "5.0.0",
+                  "from": "json-stringify-safe@~5.0.0"
+                },
+                "forever-agent": {
+                  "version": "0.5.2",
+                  "from": "forever-agent@~0.5.0"
+                },
+                "tunnel-agent": {
+                  "version": "0.3.0",
+                  "from": "tunnel-agent@~0.3.0"
+                },
+                "http-signature": {
+                  "version": "0.10.0",
+                  "from": "http-signature@~0.10.0",
+                  "dependencies": {
+                    "assert-plus": {
+                      "version": "0.1.2",
+                      "from": "assert-plus@0.1.2"
+                    },
+                    "asn1": {
+                      "version": "0.1.11",
+                      "from": "asn1@0.1.11"
+                    },
+                    "ctype": {
+                      "version": "0.5.2",
+                      "from": "ctype@0.5.2"
+                    }
+                  }
+                },
+                "hawk": {
+                  "version": "1.0.0",
+                  "from": "hawk@~1.0.0",
+                  "dependencies": {
+                    "hoek": {
+                      "version": "0.9.1",
+                      "from": "hoek@0.9.x"
+                    },
+                    "boom": {
+                      "version": "0.4.2",
+                      "from": "boom@0.4.x"
+                    },
+                    "cryptiles": {
+                      "version": "0.2.2",
+                      "from": "cryptiles@0.2.x"
+                    },
+                    "sntp": {
+                      "version": "0.2.4",
+                      "from": "sntp@0.2.x"
+                    }
+                  }
+                },
+                "aws-sign": {
+                  "version": "0.3.0",
+                  "from": "aws-sign@~0.3.0"
+                },
+                "oauth-sign": {
+                  "version": "0.3.0",
+                  "from": "oauth-sign@~0.3.0"
+                },
+                "cookie-jar": {
+                  "version": "0.3.0",
+                  "from": "cookie-jar@~0.3.0"
+                },
+                "node-uuid": {
+                  "version": "1.4.1",
+                  "from": "node-uuid@~1.4.0"
+                },
+                "mime": {
+                  "version": "1.2.11",
+                  "from": "mime@~1.2.9"
+                },
+                "form-data": {
+                  "version": "0.1.3",
+                  "from": "form-data@~0.1.0",
+                  "dependencies": {
+                    "combined-stream": {
+                      "version": "0.0.4",
+                      "from": "combined-stream@~0.0.4",
+                      "dependencies": {
+                        "delayed-stream": {
+                          "version": "0.0.5",
+                          "from": "delayed-stream@0.0.5"
+                        }
+                      }
+                    },
+                    "async": {
+                      "version": "0.9.0",
+                      "from": "async@~0.9.0"
+                    }
+                  }
+                }
+              }
+            },
+            "xmlhttprequest": {
+              "version": "1.5.0",
+              "from": "xmlhttprequest@1.5.0"
+            }
+          }
+        }
+      }
+    }
+  }
+}
