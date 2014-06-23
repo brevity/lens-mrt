@@ -1,4 +1,4 @@
-var lensDeps = {};
+lensDeps = {};
 
 lensDeps["substance-util"] = Npm.require("substance-util");
 lensDeps["substance-surface"] = Npm.require("substance-surface");
