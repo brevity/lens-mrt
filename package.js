@@ -2,6 +2,11 @@ Package.describe({
   summary:'A meteor package for displaying nlm data with the elife lens viewer.'
 });
 
+Package.on_use(function (api, where) {
+  api.export('lens');
+  //api.add_files('idx.js', ['server']);
+});
+
 Npm.depends({
     "substance-util": "0.2.0",
     "substance-surface": "0.4.0-1",
