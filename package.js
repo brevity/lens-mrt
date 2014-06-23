@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.export('lens');
+  api.export('lensDeps');
   //api.add_files('idx.js', ['server']);
 });
 
