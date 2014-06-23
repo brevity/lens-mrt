@@ -1,0 +1,8 @@
+{
+  "name": "lens-mrt",
+  "description": "A meteor package for displaying nlm data with the elife lens viewer.",
+  "Author": "Andrew Toelle <andrew.toelle@github.com> (http://github.com/brevity)",
+  "version": "0.0.1",
+  "git": "https://github.com/brevity/lens-mrt.git",
+  "packages": {}
+}
