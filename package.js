@@ -4,7 +4,7 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   api.export('lensDeps');
-  //api.add_files('idx.js', ['server']);
+  api.add_files('lens.js', ['client']);
 });
 
 Npm.depends({
